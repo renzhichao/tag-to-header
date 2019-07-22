@@ -1,0 +1,15 @@
+{
+  "name": "TAG_TO_HEADER",
+  "description": "Convert TAG in the URL to Header tag",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*/*",
+    "http://*/*"        
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
